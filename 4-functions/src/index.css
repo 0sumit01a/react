@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+.sec1{
+  background-color: lightblue;
+  height: 40vh;
+}
+.sec1 h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(63, 56, 56);
+}
+.sec2{
+  background-color: lightgreen;
+  max-height: 60vh;
+  min-height: 60vh;
+  
+}
+button{
+  margin:100px;
+  padding: 20px;
+}
+input{
+  text-align: center;
+  margin:100px;
+  padding: 20px;
+}
