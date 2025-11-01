@@ -1,0 +1,40 @@
+/* Page container */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9fafb; /* Tailwind's gray-50 */
+}
+
+/* Input field */
+input[type="text"] {
+  border: 1px solid #d1d5db; /* Tailwind's gray-300 */
+  border-radius: 0.375rem; /* rounded-md */
+  padding: 0.5rem; /* p-2 */
+  width: 16rem; /* w-64 */
+  margin-bottom: 1rem; /* mb-4 */
+  outline: none;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #60a5fa; /* Tailwind's blue-400 */
+  box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.5); /* focus ring */
+}
+
+/* Submit button */
+button[type="submit"] {
+  background-color: #3b82f6; /* Tailwind's blue-500 */
+  color: white;
+  padding: 0.5rem 1rem; /* px-4 py-2 */
+  border: none;
+  border-radius: 0.375rem; /* rounded-md */
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #2563eb; /* Tailwind's blue-600 */
+}
